@@ -173,35 +173,4 @@ contract DEX{
         }
         return uint256(0);
     }
-
-    function firstE() public view returns(uint256){
-        return orderBook1[nextOrder1[0]].price;
-    }
-    function secondE() public view returns(uint256){
-        return orderBook1[nextOrder1[1]].price;
-    }    
-    function thirdE() public view returns(uint256){
-        return orderBook1[nextOrder1[2]].price;
-    }
-    function forthE() public view returns(uint256){
-        return orderBook1[nextOrder1[3]].price;
-    }
-    function fifthE() public view returns(uint256){
-        return orderBook1[nextOrder1[4]].price;
-    }
-    function firstI() public view returns(uint256){
-        return nextOrder1[0];
-    }
-    function secondI() public view returns(uint256){
-        return nextOrder1[1];
-    }
-    function thirdI() public view returns(uint256){
-        return nextOrder1[2];
-    }
-    function forthI() public view returns(uint256){
-        return nextOrder1[3];
-    }
-    function fifthI() public view returns(uint256){
-        return nextOrder1[4];
-    }
 }
